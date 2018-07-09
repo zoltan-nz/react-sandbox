@@ -8,9 +8,12 @@
     "react-scripts-ts": "2.16.0"
   },
   "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
+    "clean": "del build coverage",
+    "start:dev": "react-scripts-ts start",
+    "build": "npm run clean && CI=true react-scripts-ts build",
+    "test:watch": "react-scripts-ts test --env=jsdom",
+    "test": "react-scripts-ts test --env=jsdom --coverage",
+    "lint": "tslint --project tsconfig.json --config tslint.json --fix",
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
@@ -18,6 +21,7 @@
     "@types/node": "^10.5.2",
     "@types/react": "^16.4.6",
     "@types/react-dom": "^16.0.6",
+    "del-cli": "^1.1.0",
     "typescript": "^2.9.2"
   }
 }
