@@ -2,7 +2,9 @@ import * as React from 'react';
 import { Component } from 'react';
 import HomePage from '../pages/Home';
 
-import './app.css';
+import 'bootstrap/scss/bootstrap.scss';
+import '../styles/index.scss';
+import './app.scss';
 
 class App extends Component {
   public render() {

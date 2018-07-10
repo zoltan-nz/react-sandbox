@@ -26,3 +26,27 @@ import 'bootstrap/dist/css/bootstrap.css';
 ```
 
 - [Reactstrap](https://github.com/reactstrap/reactstrap)
+
+## Using SCSS
+
+Rename all `css` file to `scss`.
+
+TODO:
+
+* Figuring out, how `scss` is compiled to `css`.
+
+## Adding Bootstrap 4
+
+* Bootstrap 4 component library: [ReactStrap](https://reactstrap.github.io/)
+
+```
+$ npm i -S bootstrap
+$ npm i -S reactstrap
+$ npm i -D @types/reactstrap
+```
+
+TODO:
+
+* Import the default Bootstrap css
+* Use `reactstrap` components
+* Using own `variables` for customizing Bootstrap
