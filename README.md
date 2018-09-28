@@ -50,3 +50,9 @@ TODO:
 * Import the default Bootstrap css
 * Use `reactstrap` components
 * Using own `variables` for customizing Bootstrap
+
+### Attack plan
+
+1. Add sass support first
+2. Add sass based bootstrap 4 library with custom variables
+3. Add bootstrap component library (`reactstrap`)
