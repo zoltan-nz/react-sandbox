@@ -6,7 +6,11 @@ import './app.css';
 
 class App extends Component {
   public render() {
-    return <HomePage />;
+    return (
+      <div className="container-fluid">
+        <HomePage />
+      </div>
+    );
   }
 }
 
