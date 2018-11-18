@@ -1,6 +1,5 @@
-@import '~bootstrap/scss/variables';
-@import '~bootstrap/scss/bootstrap';
+// Override default variables before the import
+$body-bg: #eee;
 
-h1 {
-  font-weight: 900;
-}
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
