@@ -1,11 +1,13 @@
 # React TypeScript Sandbox
 
-## npm scripts
+## yarn scripts
 
 ```
-$ npm run start
-$ npm run build
-$ npm run test
+$ yarn start
+$ yarn build
+$ yarn test
+$ yarn lint
+$ yarn prettier
 ```
 
 ## Add bootstrap
