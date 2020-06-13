@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
-import './App.css';
 import Accounts from './Accounts';
+import Account from './Account';
+import './App.css';
 
 const Home = () => <h2>Home Page</h2>;
 const About = () => <h2>About Page</h2>;
@@ -34,6 +35,7 @@ const App = () => (
       <Switch>
         <Route path="/accounts">
           <Accounts />
+          <Route path="/accounts/:id" children={<Account />} />
         </Route>
         <Route path="/about">
           <About />

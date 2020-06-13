@@ -1,10 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
 import App from './App';
+import './index.css';
+import { worker } from './mocks/browser';
 import * as serviceWorker from './serviceWorker';
 
+if (process.env.NODE_ENV === 'development') {
+  worker.start();
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />
