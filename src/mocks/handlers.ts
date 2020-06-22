@@ -5,7 +5,7 @@ export const handlers = [
     return res(
       ctx.status(200),
       ctx.json({
-        accounts: [{ id: 1, name: 'First Account', amount: 1000 }],
+        accounts: [{ id: 1, name: 'First AccountPage', amount: 1000 }],
       }),
     );
   }),

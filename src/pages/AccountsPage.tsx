@@ -11,7 +11,7 @@ interface Balance {
   currency?: string;
 }
 
-const Accounts = () => {
+export const AccountsPage = () => {
   const [accounts, setAccounts] = useState<Account[]>([
     { id: 1, name: 'First', selected: false },
     { id: 2, name: 'Second', selected: false },
@@ -44,5 +44,3 @@ const Accounts = () => {
     </>
   );
 };
-
-export default Accounts;
