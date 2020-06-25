@@ -7,8 +7,8 @@ export const NavigationBar = () => (
       Home
     </NavLink>{' '}
     |{' '}
-    <NavLink className="nav-link" to="/accounts">
-      Accounts
+    <NavLink className="nav-link" to="/products">
+      Products
     </NavLink>{' '}
     |{' '}
     <NavLink className="nav-link" to="/about">

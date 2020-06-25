@@ -2,12 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { App } from './App';
-import { worker } from './mocks/browser';
 import * as serviceWorker from './serviceWorker';
 
-if (process.env.NODE_ENV === 'development') {
-  worker.start();
-}
 ReactDOM.render(
   <React.StrictMode>
     <Router>
