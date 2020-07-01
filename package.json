@@ -10,6 +10,8 @@
     "format": "prettier --list-different --write '**/*.{js,jsx,ts,tsx,html,scss,css,json,md,mdx}'"
   },
   "dependencies": {
+    "grommet": "^2.15.0",
+    "grommet-icons": "^4.4.0",
     "history": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
