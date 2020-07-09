@@ -1,15 +1,15 @@
 import React from 'react';
 import { useRoutes } from 'react-router-dom';
 import { AboutPage } from './pages/AboutPage';
-import { AppPage } from './pages/AppPage';
+import { AppLayout } from './pages/AppLayout';
 import { HomePage } from './pages/HomePage';
 import { ProductsPage } from './pages/ProductsPage';
 
-export const App = () => {
+export const AppRoutes = () => {
   return useRoutes([
     {
       path: '/',
-      element: <AppPage />,
+      element: <AppLayout />,
       children: [
         { path: '/', element: <HomePage /> },
         { path: 'products', element: <ProductsPage /> },
