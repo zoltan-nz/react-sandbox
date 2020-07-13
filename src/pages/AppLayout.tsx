@@ -4,11 +4,11 @@ import { Outlet } from 'react-router';
 
 export const AppLayout = () => {
   return (
-    <>
+    <div>
       <NavigationBar />
       <main>
         <Outlet />
       </main>
-    </>
+    </div>
   );
 };
