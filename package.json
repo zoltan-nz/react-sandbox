@@ -9,6 +9,10 @@
     "format": "prettier --list-different --write '**/*.{js,jsx,ts,tsx,html,scss,css,json,md,mdx}'"
   },
   "dependencies": {
+    "@emotion/react": "^11.1.1",
+    "@emotion/styled": "^11.0.0",
+    "@material-ui/core": "^5.0.0-alpha.17",
+    "@material-ui/icons": "^4.9.1",
     "history": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

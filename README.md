@@ -24,10 +24,6 @@ Add tools: (https://styled-components.com/docs/tooling)
 1. Install `concurrently` globally.
 2. `concurrently yarn:start`
 
-## Rebass
+## Material UI
 
-```
-$ yarn add rebass @types/rebass
-```
-
-yarn add @rebass/preset
+https://next.material-ui.com/
