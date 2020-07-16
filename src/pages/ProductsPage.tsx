@@ -1,3 +1,3 @@
-import React from 'react';
+import { FC } from 'react';
 
-export const ProductsPage = () => <h2>Products Page</h2>;
+export const ProductsPage: FC = () => <h2>Products Page</h2>;

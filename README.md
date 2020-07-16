@@ -27,3 +27,7 @@ Add tools: (https://styled-components.com/docs/tooling)
 ## Material UI
 
 https://next.material-ui.com/
+
+## How to use react-query with React Context Provider
+
+- [Article 1](https://kentcdodds.com/blog/application-state-management-with-react)

@@ -1,8 +1,7 @@
-import React from 'react';
 import { useRoutes } from 'react-router-dom';
 import { AboutPage } from './pages/AboutPage';
-import { AppLayout } from './pages/AppLayout';
 import { AppIndex } from './pages/AppIndex';
+import { AppLayout } from './pages/AppLayout';
 import { ProductsPage } from './pages/ProductsPage';
 
 export const AppRoutes = () => {

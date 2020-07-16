@@ -1,3 +1,3 @@
-import React from 'react';
+import { FC } from 'react';
 
-export const AboutPage = () => <h2>About Page</h2>;
+export const AboutPage: FC = () => <h2>About Page</h2>;
