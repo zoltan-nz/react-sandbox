@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { AppRoutes } from './AppRoutes';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './report-web-vitals';
 import './index.css';
 
 ReactDOM.render(

@@ -1,3 +1,7 @@
 module.exports = {
-  typescript: {},
+  jest: {
+    configure: {
+      setupFilesAfterEnv: ['./src/setup-tests.ts'],
+    },
+  },
 };
