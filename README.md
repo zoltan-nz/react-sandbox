@@ -1,6 +1,6 @@
 # React Sandbox
 
-Continuous experimentation...It's my playground... ;)
+Playground for finding the best patterns
 
 ## Add Craco
 
@@ -32,4 +32,11 @@ https://next.material-ui.com/
 
 - [Article 1](https://kentcdodds.com/blog/application-state-management-with-react)
 
-## Install TailwindCss
+## Scripts
+
+| Script | Description |
+| ------ | ----------- |
+| start  |             |
+| test   |             |
+| format |             |
+| verify |             |

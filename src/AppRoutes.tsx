@@ -1,16 +1,16 @@
 import { useRoutes } from 'react-router-dom';
 import { AboutPage } from './pages/AboutPage';
-import { AppIndex } from './pages/AppIndex';
-import { AppLayout } from './pages/AppLayout';
+import { AppIndexPage } from './pages/AppIndexPage';
+import { AppPage } from './pages/AppPage';
 import { ProductsPage } from './pages/ProductsPage';
 
 export const AppRoutes = () => {
   return useRoutes([
     {
       path: '/',
-      element: <AppLayout />,
+      element: <AppPage />,
       children: [
-        { path: '/', element: <AppIndex /> },
+        { path: '/', element: <AppIndexPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'about', element: <AboutPage /> },
       ],
