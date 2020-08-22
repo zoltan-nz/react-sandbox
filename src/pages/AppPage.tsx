@@ -1,14 +1,15 @@
+import { Container } from '@material-ui/core';
 import { FC } from 'react';
-import { NavigationBar } from '../components/NavigationBar';
 import { Outlet } from 'react-router';
+import { NavigationBar } from '../components/NavigationBar';
 
 export const AppPage: FC = () => {
   return (
     <>
       <NavigationBar />
-      <main>
+      <Container>
         <Outlet />
-      </main>
+      </Container>
     </>
   );
 };
